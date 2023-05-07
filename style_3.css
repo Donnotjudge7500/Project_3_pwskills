@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #ffd000;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(/HTML_PROJECTS/assets/Project_3/pexels-maxyne-barcel-10402282\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: 100% 100%;
+    backdrop-filter: blur(2px) ;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+nav .logo{
+    margin-left: 10px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center; 
+    gap: 70px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+nav ul li:hover{
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+button{
+    padding: 4px 15px;
+    margin-right: 15px;
+    border: none;
+    border-radius: 5px;
+    width: fit-content;
+    font-weight: 600;
+    color: #fff;
+    background-color: #ff0000;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #fff;
+    color: black;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    font-size: 30px;
+    font-family: 'Lalezar', cursive;
+    padding: 30px;
+}
+
+main div span{
+    margin-left: 90px;
+}
+
+main div .span_1{
+    margin-left: 60px;
+}
+
+main .button_1{
+    margin-top: 15px;
+    padding: 6px 20px;
+}
+
+footer div{
+    margin-left: 90%;
+    margin-top: 40px;
+}
